@@ -27,7 +27,7 @@ public class RobotTraversal {
         }
     }
 
-    private static String findFinalCoordinates(String commands, int y, int x, char initialDirection) throws Exception {
+    private static String findFinalCoordinates(String commands, int x, int y, char initialDirection) throws Exception {
 
         for (int position = 0; position < commands.length(); position++) {
             Character[] dir = new Character[]{'E', 'N', 'W', 'S'};
